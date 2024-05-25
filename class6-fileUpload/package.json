@@ -1,0 +1,20 @@
+{
+  "name": "class6-fileupload",
+  "version": "1.0.0",
+  "description": "FIle Upload",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "fileUpload"
+  ],
+  "author": "Farrukh",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
