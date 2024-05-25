@@ -18,10 +18,10 @@ const uploadOnCLoudinary = async (localFilePath) => {
     console.log('file uploaded successfully', result.url)
     return result
   } catch (error) {
-    console.error(error)
+    console.log(error)
     fs.unlinkSync(localFilePath)
     return null
   }
 }
 
-export { uploadOnCLoudinary }
+export default uploadOnCLoudinary
